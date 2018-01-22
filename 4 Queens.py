@@ -1,13 +1,10 @@
 
-
 from tkinter import *
 from tkinter import messagebox
 import random
 
 count = 0
-count1 = 0
-x=0
-y=0
+
 root = Tk()
 
 frame=Frame(root)
@@ -396,6 +393,9 @@ for y in range(5):
   Grid.rowconfigure(frame, y, weight=1)
 
 root.mainloop()
+
+
+
 
 
 
